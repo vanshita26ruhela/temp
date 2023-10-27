@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <div class="container">
+        <hr>
+        <h1> Temperature Converter<i class="fa-solid fa-temperature-high"></i></h1>
+        <label for="celsious">Celsius :-</label>&nbsp;&nbsp;&nbsp;
+        <input id="celsius" type="text" placeholder="Enter celsius">
+        <button class="button" onclick="convertfahrenheit()">Convert Fahrenheit</button> &nbsp;&nbsp;&nbsp;
+        <br> <br>
+
+        <label for="Fahrenheit">Fahrenheit :-</label>&nbsp;&nbsp;&nbsp;
+        <input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">
+        <button class="button" onclick="convertcelsius()">Convert Celsius</button>&nbsp;&nbsp;&nbsp;
+        <br> <br>
+        <button  class="button" onclick="reset()"> Reset</button>
+    </div>
+    <hr>
+    <script src="temp.js"></script>
+</body>
+
+</html>
